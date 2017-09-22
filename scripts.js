@@ -55,7 +55,7 @@ function me(ten) {
 
 }
 
-function me2(tens) {
+function me2() {
 
 	me();
 
