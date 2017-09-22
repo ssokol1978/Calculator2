@@ -27,20 +27,39 @@
 
 //три функции и каждая принемает результат предедущей, функция возращает значение черерез return, а принимаем мы ее через вар или 26 строка
 
+// var a=10;
+// function sum(Stepan) {
+		
+// 	for (var i=0; i<a; i++) [
+// 		alert(Stepan)
+// 	]
 
+		
+		
+// }
+// sum('Stepan');
+// function first() {
+// 	return 1;
+// }
+// function second() {
+//     return 1+first();
+// }
+// function third() {
+// 	return 1+second();
+// }
+// var a=third();
+// console.log(a);
+function me(ten) {
 
+	alert("ten");
 
-
-
-
-function first() {
-	return 1;
 }
-function second() {
-    return 1+first();
+
+function me2(tens) {
+
+	me();
+
+
 }
-function third() {
-	return 1+second();
-}
-var a=third();
-console.log(a);
+
+me2();
